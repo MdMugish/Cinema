@@ -10,11 +10,12 @@ import SwiftUI
 @main
 struct CenimaApp: App {
     let persistenceController = PersistenceController.shared
-
+    @StateObject var dashboardVM = DashboardViewModel(apiClient: API_Client())
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DashboardView(dashboardVM: dashboardVM)
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+              
         }
     }
 }

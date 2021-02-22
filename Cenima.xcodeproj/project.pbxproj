@@ -3,27 +3,70 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC21681E25E3836F0070742D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = AC21681D25E3836F0070742D /* Kingfisher */; };
+		AC21682125E3B3FE0070742D /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC21682025E3B3FE0070742D /* DetailsView.swift */; };
+		AC4FFC9A25E411D400AC5BD4 /* KeyboardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4FFC9925E411D400AC5BD4 /* KeyboardType.swift */; };
+		AC4FFC9D25E4249400AC5BD4 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4FFC9C25E4249400AC5BD4 /* FilterView.swift */; };
+		AC4FFCA025E4387500AC5BD4 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4FFC9F25E4387500AC5BD4 /* View.swift */; };
 		ACFC5CCD25E2736F0020AE29 /* CenimaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC5CCC25E2736F0020AE29 /* CenimaApp.swift */; };
-		ACFC5CCF25E2736F0020AE29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC5CCE25E2736F0020AE29 /* ContentView.swift */; };
+		ACFC5CCF25E2736F0020AE29 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC5CCE25E2736F0020AE29 /* DashboardView.swift */; };
 		ACFC5CD125E273700020AE29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACFC5CD025E273700020AE29 /* Assets.xcassets */; };
 		ACFC5CD425E273700020AE29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACFC5CD325E273700020AE29 /* Preview Assets.xcassets */; };
 		ACFC5CD625E273700020AE29 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC5CD525E273700020AE29 /* Persistence.swift */; };
 		ACFC5CD925E273700020AE29 /* Cenima.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACFC5CD725E273700020AE29 /* Cenima.xcdatamodeld */; };
+		ACFC5CFA25E276CA0020AE29 /* Popular+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC5CE825E276CA0020AE29 /* Popular+CoreDataClass.swift */; };
+		ACFC5CFB25E276CA0020AE29 /* Popular+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC5CE925E276CA0020AE29 /* Popular+CoreDataProperties.swift */; };
+		ACFC5CFE25E276CA0020AE29 /* TopRated+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC5CEC25E276CA0020AE29 /* TopRated+CoreDataClass.swift */; };
+		ACFC5CFF25E276CA0020AE29 /* TopRated+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC5CED25E276CA0020AE29 /* TopRated+CoreDataProperties.swift */; };
+		ACFC5D0025E276CA0020AE29 /* NowPlaying+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC5CEE25E276CA0020AE29 /* NowPlaying+CoreDataClass.swift */; };
+		ACFC5D0125E276CA0020AE29 /* NowPlaying+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC5CEF25E276CA0020AE29 /* NowPlaying+CoreDataProperties.swift */; };
+		ACFC5D0425E276CA0020AE29 /* Upcoming+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC5CF225E276CA0020AE29 /* Upcoming+CoreDataClass.swift */; };
+		ACFC5D0525E276CA0020AE29 /* Upcoming+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC5CF325E276CA0020AE29 /* Upcoming+CoreDataProperties.swift */; };
+		ACFC5D0F25E279CD0020AE29 /* ModelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC5D0E25E279CD0020AE29 /* ModelExtension.swift */; };
+		ACFC5D1425E279FB0020AE29 /* DecoderConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC5D1325E279FB0020AE29 /* DecoderConfig.swift */; };
+		ACFC5D1925E27C9F0020AE29 /* API_Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC5D1825E27C9F0020AE29 /* API_Client.swift */; };
+		ACFC5D1C25E27D630020AE29 /* MovieErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC5D1B25E27D630020AE29 /* MovieErrors.swift */; };
+		ACFC5D1F25E27EC10020AE29 /* MovieListEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC5D1E25E27EC10020AE29 /* MovieListEndpoint.swift */; };
+		ACFC5D2325E27F5C0020AE29 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC5D2225E27F5C0020AE29 /* Utils.swift */; };
+		ACFC5D2C25E289820020AE29 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC5D2B25E289820020AE29 /* DashboardViewModel.swift */; };
+		ACFC5D2F25E289CD0020AE29 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC5D2E25E289CD0020AE29 /* Database.swift */; };
+		ACFC5D3325E2A6F80020AE29 /* CustomObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC5D3225E2A6F80020AE29 /* CustomObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC21682025E3B3FE0070742D /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		AC4FFC9925E411D400AC5BD4 /* KeyboardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardType.swift; sourceTree = "<group>"; };
+		AC4FFC9C25E4249400AC5BD4 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		AC4FFC9F25E4387500AC5BD4 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		ACFC5CC925E2736F0020AE29 /* Cenima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cenima.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACFC5CCC25E2736F0020AE29 /* CenimaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenimaApp.swift; sourceTree = "<group>"; };
-		ACFC5CCE25E2736F0020AE29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACFC5CCE25E2736F0020AE29 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		ACFC5CD025E273700020AE29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACFC5CD325E273700020AE29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ACFC5CD525E273700020AE29 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		ACFC5CD825E273700020AE29 /* Cenima.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cenima.xcdatamodel; sourceTree = "<group>"; };
 		ACFC5CDA25E273700020AE29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACFC5CE825E276CA0020AE29 /* Popular+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Popular+CoreDataClass.swift"; sourceTree = "<group>"; };
+		ACFC5CE925E276CA0020AE29 /* Popular+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Popular+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		ACFC5CEC25E276CA0020AE29 /* TopRated+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TopRated+CoreDataClass.swift"; sourceTree = "<group>"; };
+		ACFC5CED25E276CA0020AE29 /* TopRated+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TopRated+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		ACFC5CEE25E276CA0020AE29 /* NowPlaying+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NowPlaying+CoreDataClass.swift"; sourceTree = "<group>"; };
+		ACFC5CEF25E276CA0020AE29 /* NowPlaying+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NowPlaying+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		ACFC5CF225E276CA0020AE29 /* Upcoming+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Upcoming+CoreDataClass.swift"; sourceTree = "<group>"; };
+		ACFC5CF325E276CA0020AE29 /* Upcoming+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Upcoming+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		ACFC5D0E25E279CD0020AE29 /* ModelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelExtension.swift; sourceTree = "<group>"; };
+		ACFC5D1325E279FB0020AE29 /* DecoderConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoderConfig.swift; sourceTree = "<group>"; };
+		ACFC5D1825E27C9F0020AE29 /* API_Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_Client.swift; sourceTree = "<group>"; };
+		ACFC5D1B25E27D630020AE29 /* MovieErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieErrors.swift; sourceTree = "<group>"; };
+		ACFC5D1E25E27EC10020AE29 /* MovieListEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListEndpoint.swift; sourceTree = "<group>"; };
+		ACFC5D2225E27F5C0020AE29 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		ACFC5D2B25E289820020AE29 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		ACFC5D2E25E289CD0020AE29 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		ACFC5D3225E2A6F80020AE29 /* CustomObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC21681E25E3836F0070742D /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,13 +100,19 @@
 		ACFC5CCB25E2736F0020AE29 /* Cenima */ = {
 			isa = PBXGroup;
 			children = (
+				ACFC5D1225E279EE0020AE29 /* Enums */,
+				ACFC5D0D25E279B00020AE29 /* Extension */,
+				ACFC5CE425E273900020AE29 /* Model */,
+				ACFC5CE325E2738B0020AE29 /* View */,
+				ACFC5CE225E273820020AE29 /* ViewModel */,
+				ACFC5CE125E2737A0020AE29 /* Repo */,
 				ACFC5CCC25E2736F0020AE29 /* CenimaApp.swift */,
-				ACFC5CCE25E2736F0020AE29 /* ContentView.swift */,
 				ACFC5CD025E273700020AE29 /* Assets.xcassets */,
-				ACFC5CD525E273700020AE29 /* Persistence.swift */,
 				ACFC5CDA25E273700020AE29 /* Info.plist */,
 				ACFC5CD725E273700020AE29 /* Cenima.xcdatamodeld */,
+				ACFC5CD525E273700020AE29 /* Persistence.swift */,
 				ACFC5CD225E273700020AE29 /* Preview Content */,
+				ACFC5D2225E27F5C0020AE29 /* Utils.swift */,
 			);
 			path = Cenima;
 			sourceTree = "<group>";
@@ -73,6 +123,69 @@
 				ACFC5CD325E273700020AE29 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACFC5CE125E2737A0020AE29 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				ACFC5D1825E27C9F0020AE29 /* API_Client.swift */,
+				ACFC5D2E25E289CD0020AE29 /* Database.swift */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		ACFC5CE225E273820020AE29 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ACFC5D2B25E289820020AE29 /* DashboardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ACFC5CE325E2738B0020AE29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ACFC5CCE25E2736F0020AE29 /* DashboardView.swift */,
+				AC21682025E3B3FE0070742D /* DetailsView.swift */,
+				AC4FFC9C25E4249400AC5BD4 /* FilterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ACFC5CE425E273900020AE29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACFC5CE825E276CA0020AE29 /* Popular+CoreDataClass.swift */,
+				ACFC5CE925E276CA0020AE29 /* Popular+CoreDataProperties.swift */,
+				ACFC5CEC25E276CA0020AE29 /* TopRated+CoreDataClass.swift */,
+				ACFC5CED25E276CA0020AE29 /* TopRated+CoreDataProperties.swift */,
+				ACFC5CEE25E276CA0020AE29 /* NowPlaying+CoreDataClass.swift */,
+				ACFC5CEF25E276CA0020AE29 /* NowPlaying+CoreDataProperties.swift */,
+				ACFC5CF225E276CA0020AE29 /* Upcoming+CoreDataClass.swift */,
+				ACFC5CF325E276CA0020AE29 /* Upcoming+CoreDataProperties.swift */,
+				ACFC5D3225E2A6F80020AE29 /* CustomObject.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ACFC5D0D25E279B00020AE29 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ACFC5D0E25E279CD0020AE29 /* ModelExtension.swift */,
+				AC4FFC9F25E4387500AC5BD4 /* View.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		ACFC5D1225E279EE0020AE29 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				ACFC5D1325E279FB0020AE29 /* DecoderConfig.swift */,
+				ACFC5D1B25E27D630020AE29 /* MovieErrors.swift */,
+				ACFC5D1E25E27EC10020AE29 /* MovieListEndpoint.swift */,
+				AC4FFC9925E411D400AC5BD4 /* KeyboardType.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +204,9 @@
 			dependencies = (
 			);
 			name = Cenima;
+			packageProductDependencies = (
+				AC21681D25E3836F0070742D /* Kingfisher */,
+			);
 			productName = Cenima;
 			productReference = ACFC5CC925E2736F0020AE29 /* Cenima.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +234,9 @@
 				Base,
 			);
 			mainGroup = ACFC5CC025E2736F0020AE29;
+			packageReferences = (
+				AC21681C25E3836F0070742D /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = ACFC5CCA25E2736F0020AE29 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -145,9 +264,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACFC5CD925E273700020AE29 /* Cenima.xcdatamodeld in Sources */,
+				ACFC5D2C25E289820020AE29 /* DashboardViewModel.swift in Sources */,
+				ACFC5D3325E2A6F80020AE29 /* CustomObject.swift in Sources */,
+				ACFC5D0025E276CA0020AE29 /* NowPlaying+CoreDataClass.swift in Sources */,
+				ACFC5D2325E27F5C0020AE29 /* Utils.swift in Sources */,
+				ACFC5CFE25E276CA0020AE29 /* TopRated+CoreDataClass.swift in Sources */,
+				ACFC5CFB25E276CA0020AE29 /* Popular+CoreDataProperties.swift in Sources */,
+				ACFC5CFA25E276CA0020AE29 /* Popular+CoreDataClass.swift in Sources */,
+				AC4FFC9D25E4249400AC5BD4 /* FilterView.swift in Sources */,
+				AC4FFCA025E4387500AC5BD4 /* View.swift in Sources */,
+				ACFC5D0425E276CA0020AE29 /* Upcoming+CoreDataClass.swift in Sources */,
+				ACFC5D1C25E27D630020AE29 /* MovieErrors.swift in Sources */,
+				AC21682125E3B3FE0070742D /* DetailsView.swift in Sources */,
 				ACFC5CD625E273700020AE29 /* Persistence.swift in Sources */,
-				ACFC5CCF25E2736F0020AE29 /* ContentView.swift in Sources */,
+				ACFC5CFF25E276CA0020AE29 /* TopRated+CoreDataProperties.swift in Sources */,
+				ACFC5D0525E276CA0020AE29 /* Upcoming+CoreDataProperties.swift in Sources */,
+				ACFC5D2F25E289CD0020AE29 /* Database.swift in Sources */,
+				ACFC5D1925E27C9F0020AE29 /* API_Client.swift in Sources */,
+				AC4FFC9A25E411D400AC5BD4 /* KeyboardType.swift in Sources */,
+				ACFC5CCF25E2736F0020AE29 /* DashboardView.swift in Sources */,
+				ACFC5D1425E279FB0020AE29 /* DecoderConfig.swift in Sources */,
 				ACFC5CCD25E2736F0020AE29 /* CenimaApp.swift in Sources */,
+				ACFC5D0F25E279CD0020AE29 /* ModelExtension.swift in Sources */,
+				ACFC5D1F25E27EC10020AE29 /* MovieListEndpoint.swift in Sources */,
+				ACFC5D0125E276CA0020AE29 /* NowPlaying+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +476,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AC21681C25E3836F0070742D /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC21681D25E3836F0070742D /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC21681C25E3836F0070742D /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		ACFC5CD725E273700020AE29 /* Cenima.xcdatamodeld */ = {
