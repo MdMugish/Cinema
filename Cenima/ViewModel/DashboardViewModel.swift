@@ -109,6 +109,7 @@ class DashboardViewModel : ObservableObject{
     func writeToPhotoAlbum(image: UIImage) {
            UIImageWriteToSavedPhotosAlbum(image, self, nil, nil)
         imageSaved = true
+        print("")
     }
 
       
