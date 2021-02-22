@@ -18,3 +18,16 @@
 - Core Data 
 - Swift Package
 - NSSecureCoding
+
+
+![alt text](https://github.com/MdMugish/Cenima/blob/main/Screenshots/Dashboard_1.png)
+![alt text](https://github.com/MdMugish/Cenima/blob/main/Screenshots/Dashboard_2.png)
+![alt text](https://github.com/MdMugish/Cenima/blob/main/Screenshots/DetailView.png)
+![alt text](https://github.com/MdMugish/Cenima/blob/main/Screenshots/ImageSaved.png)
+![alt text](https://github.com/MdMugish/Cenima/blob/main/Screenshots/SearchMovie_1.png)
+![alt text](https://github.com/MdMugish/Cenima/blob/main/Screenshots/SearchMovieViaNameOrYear.png)
+![alt text](https://github.com/MdMugish/Cenima/blob/main/Screenshots/SearchMovieViaName.png)
+![alt text](https://github.com/MdMugish/Cenima/blob/main/Screenshots/SearchMovieViaYear.png)
+![alt text](https://github.com/MdMugish/Cenima/blob/main/Screenshots/MovieDetailsFromSearchMovie.png)
+
+
