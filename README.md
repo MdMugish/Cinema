@@ -1,4 +1,4 @@
-# Cenima
+# Cinema
 
 ## Core Features :
 1. List of movies
